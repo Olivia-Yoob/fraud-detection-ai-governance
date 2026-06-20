@@ -1,0 +1,6 @@
+{
+  "best_model": "XGBoost",
+  "chosen_threshold": 0.060000000000000005,
+  "cost_fn": 200.0,
+  "cost_fp": 5.0
+}

@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files (too large for GitHub)
+data/*.csv
+data/*.zip
+# Processed data is regenerable from 02_Preprocessing.ipynb
+data/processed/
+# Trained models are regenerable from 03_Modeling.ipynb
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
