@@ -12,18 +12,6 @@ This project demonstrates how a fraud-detection ML model can be developed **and 
 
 **Why this matters:** most fraud-detection portfolios stop at predictive metrics (e.g. ROC-AUC). In practice, AI systems in financial services face stringent regulatory frameworks (EU AI Act, NIST AI RMF) and require ongoing risk monitoring. This project explicitly bridges that gap — treating the model not as a prediction engine, but as a **governed risk asset**.
 
----
-
-## 🎯 Author Context
-
-Built as a portfolio project by an incoming **CMU MISM-BIDA (Heinz College)** student with **3 years at a Big-4 consulting firm**, specializing in AI governance and operational risk for major Korean financial institutions.
-
-Prior experience operationalized in this framework:
-- Designed an **AI executive-accountability framework** at a major Korean commercial bank — covering AI governance, model validation, and AI-driven asset management — benchmarked against the **EU AI Act**, **NIST AI RMF**, and **FSB AI Principles** (7-month engagement, 6 senior executives).
-- Designed a **quantitative Key Risk Indicator (KRI) framework** with statistical thresholding (**24-month moving average ± 95%/99% CI**) for automated risk monitoring across 9 business functions at a **Top-5 Korean life insurer** — the design directly behind this project's [drift-monitoring framework](docs/DRIFT_MONITORING.md).
-- Led IT-compliance localization at the Korean subsidiary of a pan-Asian insurer (ServiceNow CMDB, RACI across 7 processes).
-
-This portfolio distills those enterprise principles and **operationalizes** them on an open-source ML system.
 
 ---
 
